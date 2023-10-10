@@ -28,6 +28,8 @@ SQL cheat sheet for simple sql commands.
   <br>
 - [DELETE](#delete) - Delete a row or rows from table.
   <br>
+  [TRUNCATE TABLE](#truncate-table) - Delete all rows more efficiently.
+  <br>
 - [SELECT INTO](#select-into) - Select columns from table and insert them in another table.
   <br>
 - [CREATE & DROP](#create--drop) - Create and drop a database or table.
@@ -382,6 +384,17 @@ WHERE column1='jack';
 ```sql
 DELETE FROM table_name
 WHERE column1=20;
+```
+
+
+# 
+
+## TRUNCATE TABLE
+
+**TRUNCATE TABLE**: Truncate all rows from a table which is faster than delete and uses less transaction logs.
+
+```sql
+TRUNCATE TABLE table_name
 ```
 
 #
