@@ -28,7 +28,7 @@ SQL cheat sheet for simple sql commands.
   <br>
 - [DELETE](#delete) - Delete a row or rows from table.
   <br>
-  [TRUNCATE TABLE](#truncate-table) - Delete all rows more efficiently.
+- [TRUNCATE TABLE](#truncate-table) - Delete all rows more efficiently.
   <br>
 - [SELECT INTO](#select-into) - Select columns from table and insert them in another table.
   <br>
